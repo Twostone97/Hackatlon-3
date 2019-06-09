@@ -42,13 +42,13 @@ if ($_POST) {
 
     <div class="addsong">
     <form action="" method="post">
-        <label for="author"><a href="/authors.php">Author:</a></label>
+        <label for="author"><a href="authors.php">Author:</a></label>
         <input type="text" name="author" value="">
         <label for="name">Name:</label>
         <input type="text" name="name" value="">
         <label for="url">Url:</label>
         <input type="text" name="url" value="">
-        <label for="url"><a href="/genres.php">Genre:</a></label>
+        <label for="url"><a href="genres.php">Genre:</a></label>
         <input type="text" name="genres" value="">
         <input type="submit" value="+">
     
