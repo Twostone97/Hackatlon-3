@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+}
+
+.addsong{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.addsong input {
+    border-radius: 50px;
+    border: 2px solid blue;
+}
+
+.addsong label {
+    margin-left: 20px;
+}
+
+.addsong label a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.songholder {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.song {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: min-content;
+    margin: 30px;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+.song input{
+    font-size: 25px;
+    border: 0;
+}
+
+.song a{
+    font-size: 25px;
+    border: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+}
+
+.menu  input{
+    border-radius: 50px;
+    font-weight: 800;
+}
+
+.list {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
